@@ -43,5 +43,21 @@ namespace Collection_Problem
                 Console.WriteLine(ObjEnumerator.Current);
             }
         }
+        public void DemoStack()
+        {
+            Stack<string> stack = new Stack<string>();
+            stack.Push("Ramchandra");
+            stack.Push("Mahesh");
+            stack.Push("Sanjeev");
+            stack.Push("Piyush");
+            stack.Push("Rahul");
+
+            string objPop = stack.Pop();
+            foreach(var element in stack)
+            {
+                Console.WriteLine(element);
+            }
+            Console.WriteLine($"\nPopped Elements :{objPop}");
+        }
     }
 }
