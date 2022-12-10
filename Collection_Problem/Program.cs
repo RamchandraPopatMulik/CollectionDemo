@@ -6,6 +6,7 @@
         {
             ClassDemo classDemo = new ClassDemo();
             classDemo.Demo();
+            classDemo.DemoQueue();
         }
     }
 }
