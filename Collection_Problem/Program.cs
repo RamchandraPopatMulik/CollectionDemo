@@ -7,7 +7,8 @@
             ClassDemo classDemo = new ClassDemo();
             //classDemo.Demo();
             //classDemo.DemoQueue();
-            classDemo.DemoStack();
+            //classDemo.DemoStack();
+            classDemo.DemoList();
         }
     }
 }

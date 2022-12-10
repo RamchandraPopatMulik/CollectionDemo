@@ -59,5 +59,17 @@ namespace Collection_Problem
             }
             Console.WriteLine($"\nPopped Elements :{objPop}");
         }
+        public void DemoList()
+        {
+            List<string> list = new List<string>();
+            list.Add("Ramchnadra");
+            list.Add("Mahesh");
+            list.Add("Sachin");
+            list.Add("Sanjeev");
+            foreach(var element in list)
+            {
+                Console.WriteLine(element);
+            }
+        }
     }
 }
