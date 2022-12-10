@@ -8,7 +8,8 @@
             //classDemo.Demo();
             //classDemo.DemoQueue();
             //classDemo.DemoStack();
-            classDemo.DemoList();
+            //classDemo.DemoList();
+            classDemo.DemoSet();
         }
     }
 }
